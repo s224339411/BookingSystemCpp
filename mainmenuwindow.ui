@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainMenuWindow</class>
+ <widget class="QMainWindow" name="MainMenuWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Booking System</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuRooms">
+    <property name="title">
+     <string>Rooms</string>
+    </property>
+    <addaction name="actionList"/>
+   </widget>
+   <widget class="QMenu" name="menuBooking">
+    <property name="title">
+     <string>Booking</string>
+    </property>
+    <widget class="QMenu" name="menuList">
+     <property name="title">
+      <string>List</string>
+     </property>
+     <addaction name="actionToday"/>
+     <addaction name="actionWeekly"/>
+     <addaction name="actionMonthly"/>
+    </widget>
+    <addaction name="menuList"/>
+    <addaction name="actionAdd_2"/>
+    <addaction name="actionUpdate"/>
+    <addaction name="actionCancel"/>
+   </widget>
+   <addaction name="menuRooms"/>
+   <addaction name="menuBooking"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionList">
+   <property name="text">
+    <string>List</string>
+   </property>
+  </action>
+  <action name="actionAdd_2">
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </action>
+  <action name="actionToday">
+   <property name="text">
+    <string>Today</string>
+   </property>
+  </action>
+  <action name="actionWeekly">
+   <property name="text">
+    <string>Weekly</string>
+   </property>
+  </action>
+  <action name="actionUpdate">
+   <property name="text">
+    <string>Update</string>
+   </property>
+  </action>
+  <action name="actionCancel">
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </action>
+  <action name="actionMonthly">
+   <property name="text">
+    <string>Monthly</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

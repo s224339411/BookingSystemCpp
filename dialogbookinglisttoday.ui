@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogBookingListToday</class>
+ <widget class="QDialog" name="DialogBookingListToday">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Today's Bookings</string>
+  </property>
+  <widget class="QTableWidget" name="tableBooking">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>781</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>105</number>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Check-in Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Check-out Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Guest Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Guests Number</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Room</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Daily Rate</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Total Cost</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

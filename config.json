@@ -1,0 +1,59 @@
+{
+    "datasource": {
+        "bookings": [
+            {
+                "check_in_date": "28/05/2025",
+                "check_out_date": "29/05/2025",
+                "guest_name": "Marco",
+                "guests_number": 2,
+                "guid": "8604ff4e-a883-45dd-86f6-50f4886a080d",
+                "room": {
+                    "guid": "17f09446-8c70-44d1-9973-b321e1827286"
+                }
+            },
+            {
+                "check_in_date": "28/05/2025",
+                "check_out_date": "31/05/2025",
+                "guest_name": "Steve",
+                "guests_number": 1,
+                "guid": "1e2365ac-aa46-4b29-b3f1-e7d1bcfbfe60",
+                "room": {
+                    "guid": "78b7879c-5411-43cd-8d23-1b1394f9f4b9"
+                }
+            }
+        ],
+        "login": {
+            "password": "admin",
+            "user": "admin"
+        },
+        "rooms": [
+            {
+                "daily_rate": 100,
+                "guid": "17f09446-8c70-44d1-9973-b321e1827286",
+                "maximum_guests": 1,
+                "name": "Single Room",
+                "number": 1,
+                "private_bathroom": true,
+                "type": 1
+            },
+            {
+                "daily_rate": 150,
+                "guid": "433d088a-4d56-40c2-9759-a4e9b49f064f",
+                "maximum_guests": 2,
+                "name": "Double Room",
+                "number": 2,
+                "private_bathroom": true,
+                "type": 2
+            },
+            {
+                "daily_rate": 200,
+                "guid": "78b7879c-5411-43cd-8d23-1b1394f9f4b9",
+                "maximum_guests": 4,
+                "name": "Deluxe Suite",
+                "number": 3,
+                "private_bathroom": true,
+                "type": 3
+            }
+        ]
+    }
+}
