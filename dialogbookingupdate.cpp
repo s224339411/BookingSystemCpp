@@ -62,7 +62,8 @@ void DialogBookingUpdate::on_btnFindGuest_clicked()
 
     //Find booking by guesy name
     for (int i = 0; i < bookings.size(); ++i) {
-        if(ui->txtFindGuestName->text().compare(QString::fromStdString(bookings[i].guest_name),Qt::CaseInsensitive) == 0){
+        if(ui->txtFindGuestName->text().compare(QString::fromStdString(bookings[i].guest_name),Qt::CaseInsensitive) == 0 &&
+            bookings[i].check_in_date>=QDate::currentDate()){
             this->booking = bookings[i];
             break;
         }
